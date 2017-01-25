@@ -15,4 +15,7 @@ def test_6_plus_4_returns_10
 def test_8_plus_5_returns_13
 	assert_equal(13,add(8,5))
  end
+def test_hello_plus_mike_returns_hellomike
+	assert_equal("HelloMike",add("Hello","Mike"))
+ end
 end
