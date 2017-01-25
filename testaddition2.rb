@@ -2,6 +2,9 @@
  	sum = 0
  	number.each do |n|
  		sum += n
+ 		puts sum
   end
-  return 4
+  return sum
  end
+
+ print add(1,2,3)
