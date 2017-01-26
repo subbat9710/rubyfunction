@@ -1,6 +1,7 @@
  def add(*number)
- 	
- 	number.inject do |sum, value|
- 		sum += value
+ 	sum = 0
+ 	number.each do |n|
+ 		sum += n
   end
+   return sum
  end
