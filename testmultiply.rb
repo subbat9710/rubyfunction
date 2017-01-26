@@ -1,3 +1,5 @@
-def multiply(num_2,num_1)
-	num_2 * num_1
+def multiply(*number)
+	number.inject do |multiply, value|
+		multiply *= value 
+    end
 end
